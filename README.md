@@ -1,24 +1,31 @@
-# C Programming Basics
+# C Programming — Level 1: Warm-up
+### Output, Variables, and Basic Input
 
-A collection of beginner-friendly C programs covering fundamental I/O, operators, arithmetic expressions, and conditional branching.
+Solutions for Level 1 introductory practical programming exercises in C.
 
-## Problems Solved
+---
 
-| File | Description |
+## Problem Set Index
+
+| Program | Problem Statement |
 | :--- | :--- |
-| `problem01.c` | Read two numbers and print their sum |
-| `problem02.c` | Calculate the area of a circle |
-| `problem03.c` | Calculator computing sum, difference, product, and quotient |
-| `problem04.c` | Calculate the area of a rectangle |
-| `problem05.c` | Swap two numbers using a third (temporary) variable |
-| `problem06.c` | Convert temperature from Celsius to Fahrenheit |
-| `problem07.c` | Swap two numbers without using a temporary variable |
-| `problem08.c` | Calculate the total and average marks of 5 subjects |
-| `problem09.c` | Convert total seconds into hours, minutes, and seconds |
-| `problem10.c` | Digital clock time format display (`HH:MM:SS`) |
+| `problem1.c` | Write a program to print "Hello, World!" on the screen. |
+| `problem2.c` | Write a program to read two numbers and print their sum. |
+| `problem3.c` | Write a program to read two numbers and print their sum, difference, product and quotient. |
+| `problem4.c` | Write a program to read the radius of a circle and print its area and circumference. |
+| `problem5.c` | Write a program to read the length and breadth of a rectangle and print its area and perimeter. |
+| `problem6.c` | Write a program to swap two numbers using a third variable. |
+| `problem7.c` | Write a program to swap two numbers without using a third variable. |
+| `problem8.c` | Write a program to read a temperature in Celsius and convert it to Fahrenheit. |
+| `problem9.c` | Write a program to read the marks of 5 subjects and print the total and average. |
+| `problem10.c` | Write a program to read seconds and convert them into hours, minutes and seconds. |
 
-## Compilation
-To compile any program using GCC:
+---
+
+## How to Compile and Run
+
+Compile any source file using the GCC compiler in your terminal:
+
 ```bash
-gcc problem01.c -o problem01
-./problem01
+gcc problem1.c -o problem1
+./problem1
